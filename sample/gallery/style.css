@@ -1,9 +1,15 @@
 .row .img {
-    padding: 0 4px !important;
+    padding: 0 20px !important;
 }
 
 .img img {
   margin-top: 8px;
   vertical-align: middle;
+  width: 500px;
+  transition: ease-in-out 0.2s;
+}
 
+.img img:hover{
+  transition: ease-in-out 0.2s;
+  transform: scale(140%);
 }
