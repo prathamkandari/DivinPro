@@ -43,10 +43,10 @@
     <nav class="menu navbar navbar-expand-lg sticky-top navbar-light bg-white">
         <div class="container-fluid con_nav">
             <a class="navbar-brand d-flex " href="#">
-                <img class="logo_1" src="../img/DivIn Pro logo.png" alt="">
-                <img class="logo_2 den" src="../img/SDG-logo.png" alt="">
+                <img class="logo_1" src="../img/DivIn_Pro_Logo-removebg-preview.png" alt="">
+                <img class="logo_2 den" src="./images/SDG-logo.png" alt="">
             </a>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,30 +57,27 @@
                 <div class="mobile-menu-head">
                     <div class="go-back"><i class="fa fa-angle-left"></i></div>
                     <div class="current-menu-title"></div>
-                    <div class="mobile-menu-close">&times;</div>
+                    <!-- <div class="mobile-menu-close">&times;</div> -->
                 </div>
-                <ul class="navbar-nav gap-3 menu-main">
+                <ul class="navbar-nav gap-4 menu-main">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">HOME</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">WHY DivIn Pro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#kpo">KPO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">BPO</a>
+                        <a class="nav-link" href="../index.html">HOME</a>
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about-us">WHY DivIn Pro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#kpo">KPO & BPO</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#consult">CONSULTING & ADVISORY</a>
-                    </li>
+                    </li> -->
 
-                    <li class="nav-item menu-item-has-children">
-                        <a href="#" class="nav-link">SECTORS <i class="fa fa-angle-down"></i></a>
+                    <li class="nav-item menu-item-has-children laptop">
+                        <a href="#" class="nav-link">SECTORS</a>
                         <div class="sub-menu mega-menu mega-menu-column-4 vh-10 w-50">
                             <div class="list-item">
                                 <h4 class="title">Causes we focus on</h4>
@@ -95,14 +92,34 @@
                             </div>
                         </div>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">BLOGS</a>
+                    <li class="mobile">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle vh-50 w-100" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="border: none; background-color: #fff; color: rgba(0, 0, 0, .55); font-size: 12px; padding: 0; font-weight: 700; border-bottom: 1px solid rgba(0, 0, 0, 0.1); display: flex;
+                                height: 50px; justify-content: space-between; align-items: center; z-index: 501; position: sticky;">
+                                SECTORS
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="line">Women Empowerment (SDG 5)</a></li>
+                                <li><a href="#" class="line">Education and Skilling (SDG 4 and 8)</a></li>
+                                <li><a href="#">Entrepreneurship (SDG 9)</a></li>
+                                <li> <img class="d-flex justify-content-center" src="img/p3.jpg" alt="shop"
+                                        style="height: 20%; width: 20%; float: right;">
+                                </li>
+                                <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </div>
                     </li>
 
-                    <li class="nav-item menu-item-has-children">
-                        <a href="#" class="nav-link">CAREER<i class="fa fa-angle-down"></i></a>
-                        <div class="sub-menu mega-menu mega-menu-column-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#blog">BLOGS</a>
+                    </li>
+
+                    <li class="nav-item menu-item-has-children laptop">
+                        <a href="#" class="nav-link">CAREER</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4 mt-3">
                             <div class="list-item text-center">
                                 <a href="#">
                                     <img src="../img/career/tel.jpg" alt="new Product">
@@ -139,9 +156,59 @@
                                     <h4 class="title">Volunteers</h4>
                                 </a>
                             </div>
-                            <a href="#contact" class="join">
+                            <a href="../contact/index.html" class="join">
                                 <button class="btn btn-primary cont">JOIN US</button>
                             </a>
+                        </div>
+                    </li>
+                    <li class="mobile">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle vh-50 w-100" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="border: none; background-color: #fff; color: rgba(0, 0, 0, .55); font-size: 12px; padding: 0; font-weight: 700; border-bottom: 1px solid rgba(0, 0, 0, 0.1); display: flex;
+                                height: 50px; justify-content: space-between; align-items: center; z-index: 501; position: sticky;">
+                                CAREER
+                            </button>
+                            <ul class="dropdown-menu">
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/tel.jpg" alt="new Product">
+                                        <h4 class="title">Telecallers</h4>
+                                    </a>
+                                </div>
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/train(1).jpg" alt="new Product">
+                                        <h4 class="title">Trainers</h4>
+                                    </a>
+                                </div>
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/leader.jpg" alt="new Product">
+                                        <h4 class="title">Team Leaders</h4>
+                                    </a>
+                                </div>
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/research.jpg" alt="new Product">
+                                        <h4 class="title">Researchers</h4>
+                                    </a>
+                                </div>
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/intern.jpg" alt="new Product">
+                                        <h4 class="title">Interns</h4>
+                                    </a>
+                                </div>
+                                <div class="list-item text-center">
+                                    <a href="#">
+                                        <img src="img/career/volunteer.jpg" alt="new Product">
+                                        <h4 class="title">Volunteers</h4>
+                                    </a>
+                                </div>
+                                <a href="contact/index.html" class="join">
+                                    <button class="btn btn-primary cont">JOIN US</button>
+                                </a>
+                            </ul>
                         </div>
                     </li>
 
@@ -157,10 +224,8 @@
                 <img class="logo_2 hid" src="../img/SDG-logo.png" alt="">
             </a>
         </div>
-        <div class="mobile-menu-trigger">
-            <span></span>
-        </div>
-    </nav><!-- //NAVBAR -->
+    </nav>
+    <!-- //NAVBAR -->
 
 
 
