@@ -224,22 +224,32 @@
                         <p>
                             Dr Juhi Garg has diverse experience of 20 years in industry and academia and has been a
                             seasoned higher education academician, researcher, and leader in academic administration,
-                            entrepreneurship development, women empowerment, CSR, and business development.
+                            entrepreneurship development,
 
-                            Dr Garg has earned her Doctoral (PhD) degree in the field of Management and holds a Master
-                            of Business Administration (MBA) Degree along with an additional Master of Arts (MA) Degree
-                            in Psychology along with various certifications in her expert domains. She owns a Copyright
-                            from Registrars of Copyright, Copyright Office, New Delhi, Government of India for
-                            developing and standardising a Psychometric tools. She has been the principal investigator
-                            and consultant to various Government, non—Govt and private projects. She also mentors
-                            various startups and are on their advisory board.
-                            Dr Juhi is a sought-after speaker and has delivered numerous talks and expert lectures at
-                            various Government and private institutions. She is associated with NGOs and startups on a
-                            pro bono basis and loves contributing back to society.  
-                            She is passionate about sports, music, and writing apart from her zest for creating value
-                            through her work.
-
+                            <span class="dots">
+                                ...</span>
+                            <span class="moreText"> women empowerment, CSR, and business development. Dr Garg has
+                                earned her Doctoral (PhD) degree in the field of Management and holds a Master
+                                of Business Administration (MBA) Degree along with an additional Master of Arts (MA)
+                                Degree
+                                in Psychology along with various certifications in her expert domains. She owns a
+                                Copyright
+                                from Registrars of Copyright, Copyright Office, New Delhi, Government of India for
+                                developing and standardising a Psychometric tools.She has been the principal
+                                investigator
+                                and consultant to various Government, non—Govt and private projects. She also mentors
+                                various startups and are on their advisory board.
+                                Dr Juhi is a sought-after speaker and has delivered numerous talks and expert lectures
+                                at
+                                various Government and private institutions. She is associated with NGOs and startups on
+                                a
+                                pro bono basis and loves contributing back to society.  
+                                She is passionate about sports, music, and writing apart from her zest for creating
+                                value
+                                through her work.
+                            </span>
                         </p>
+                        <button class="read-more-btn shadow">Read More</button>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
@@ -255,7 +265,10 @@
                         </div>
                         <hr>
                         <p>
-                            Mr Garg is a seasoned businessman and carries more than 22 years of experience in the field of horticulture and real estate. He holds a master’s degree in economics and is on the board of trustees with NGOs and societies working towards education. He is a seer at heart and has a philanthropic outlook towards life.
+                            Mr Garg is a seasoned businessman and carries more than 22 years of experience in the field
+                            of horticulture and real estate. He holds a master’s degree in economics and is on the board
+                            of trustees with NGOs and societies working towards education. He is a seer at heart and has
+                            a philanthropic outlook towards life.
 
                         </p>
                     </div>
@@ -422,6 +435,18 @@
         });
     </script>
     <script src="../script.js"></script>
+    <script>
+        const re_Btn = document.querySelector(".re_btn");
+        const text_1 = document.querySelector(".text_1");
+        re_Btn.addEventListener("click", (e) => {
+            text_1.classList.toggle("show-more");
+            if (re_Btn.innerText === "Read More") {
+                re_Btn.innerText = "Read Less";
+            } else {
+                re_Btn.innerText = "Read More";
+            }
+        });
+    </script>
 </body>
 
 </html>
