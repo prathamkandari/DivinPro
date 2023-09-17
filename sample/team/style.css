@@ -1,0 +1,38 @@
+
+.moreTextt {
+    display: none;
+  }
+  
+  .read-more-btn-team {
+    background: linear-gradient(30deg, rgba(183, 70, 149, 1) 41%, rgba(102, 70, 175, 1) 90%);
+    transition: ease-in-out 1s;
+    padding: 5px 6px;
+    color: #fff;
+    /* background-color: var(--white); */
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .read-more-btn-team:hover {
+    /* background-color: var(--white); */
+    background: #fff;
+    color: #000000;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .teamtext.show-more .moreTextt {
+    display: inline;
+  }
+  
+  .teamtext.show-more .dots {
+    display: none;
+  }
+  
+  .more_Textt {
+    display: none;
+  }
+  
+ 
