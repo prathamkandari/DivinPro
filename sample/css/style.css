@@ -1780,3 +1780,24 @@ img .contactus {
   transform: translateY(0);
   pointer-events: all;
 }
+
+@media screen and (max-width: 433px) {
+  .showPopup{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .showPopup{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  .showPopup{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
