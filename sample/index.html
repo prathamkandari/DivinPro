@@ -76,12 +76,13 @@
 
                     <li class="nav-item menu-item-has-children laptop">
                         <a href="#" class="nav-link">SECTORS</a>
-                        <div class="sub-menu mega-menu mega-menu-column-4 vh-10 w-50">
+                        <div class="sub-menu mega-menu mega-menu-column-4 justify-content-center text-center" style="width: 22%;">
                             <div class="list-item">
-                                <h4 class="title">Causes we focus on</h4>
+                                <h4 class="title ">Causes we focus on</h4>
                                 <ul>
                                     <li><a href="https://sdgs.un.org/goals/goal5" target="_blank" class="line">Women Empowerment (SDG 5)</a></li>
-                                    <li><a href="https://sdgs.un.org/goals/goal8" target="_blank" class="line">Education and Skilling (SDG 4 and 8)</a></li>
+                                    <li><a href="https://sdgs.un.org/goals/goal4" target="_blank" class="line">Education (SDG 4)</a></li>
+                                    <li><a href="https://sdgs.un.org/goals/goal8" target="_blank" class="line">Economic Growth (SDG 8)</a></li>
                                     <li><a href="https://sdgs.un.org/goals/goal9" target="_blank">Entrepreneurship (SDG 9)</a></li>
                                 </ul>
                             </div>
@@ -99,7 +100,8 @@
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a href="https://sdgs.un.org/goals/goal5" class="d-flex justify-content-center">Women Empowerment (SDG 5)</a></li>
-                                <li><a href="https://sdgs.un.org/goals/goal8" class="d-flex justify-content-center">Education and Skilling (SDG 4 and 8)</a></li>
+                                <li><a href="https://sdgs.un.org/goals/goal4" target="_blank" class="line">Education (SDG 4)</a></li>
+                                <li><a href="https://sdgs.un.org/goals/goal8" target="_blank" class="line">Economic Growth (SDG 8)</a></li>
                                 <li><a href="https://sdgs.un.org/goals/goal9" class="d-flex justify-content-center">Entrepreneurship (SDG 9)</a></li>
                                 <!-- <li> <img class="d-flex justify-content-center start-0" src="img/imgg.gif" alt="shop">
                                 </li> -->
@@ -1705,6 +1707,30 @@
         </div>
     </footer>
     <!-- FOOTER -->
+
+    <!--loding pop up-->
+    <div class="popup">
+        <div class="popup-content">
+            <h4><i class="fa-regular fa-circle-xmark"></i></h4>
+            <h2>Popup</h2>
+            <p>And some dummy content that shows on this popup Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ratione quisquam iure libero impedit aspernatur, expedita quaerat mollitia delectus, eius ad excepturi inventore aperiam perspiciatis voluptatum porro. Tenetur libero, aspernatur nobis quod autem assumenda, nostrum esse reiciendis quibusdam vitae iure harum illum similique consectetur ut ipsam, at repellendus! Nulla est debitis illo.</p>
+        </div>
+    </div>
+
+    <script>
+        const popup = document.querySelector('.popup');
+        const x = document.querySelector('.popup-content h4')
+
+        window.addEventListener('load', () => {
+            popup.classList.add('showPopup');
+            popup.childNodes[1].classList.add('showPopup');
+        })
+        x.addEventListener('click', () => {
+            popup.classList.remove('showPopup');
+            popup.childNodes[1].classList.remove('showPopup');
+        })
+    </script>
+    <!--loading pop up-->
 
 
     <!-- <script>
