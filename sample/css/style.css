@@ -1740,7 +1740,7 @@ img .contactus {
 
 .popup {
   position: fixed;
-  top: 0;
+  top: -16px;
   width: 100vw;
   height: 100vh;
   z-index: 2000;
@@ -1753,6 +1753,7 @@ img .contactus {
 }
 .popup-content {
   width: clamp(300px, 90vw, 500px);
+  color: white;
   background-color: #fff;
   padding: clamp(1.5rem, 100vw, 3rem);
   box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
@@ -1762,6 +1763,9 @@ img .contactus {
   transition: 200ms ease-in-out opacity,
               200ms ease-in-out transform;
   position: relative;
+}
+.popup-content h3{
+  color: rgb(218, 211, 211);
 }
 .popup h4 {
   position: absolute;
@@ -1800,4 +1804,72 @@ img .contactus {
     margin-top: 16px;
     margin-bottom: 16px;
   }
+}
+
+.background {
+  /* From https://css.glass */
+  background: rgba(183, 70, 149, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(183, 70, 149, 0.48);
+}
+
+.popbtn1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #B74695;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: solid #B74695 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 50px 25px 25px 50px;
+  transition: 0.5s ease-in-out;
+  transform: translateY(0);
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.popbtn1:hover {
+
+  transition: 0.5s ease-in-out;
+  padding: 10px 32px;
+  transform: translateY(-3px);
+  background-color: #B74695;
+  color: #ffffff;
+  border: none;
+}
+
+.popbtn2{
+font-family: Roboto, sans-serif;
+font-weight: 600;
+font-size: 14px;
+color: #B74695;
+background-color: #ffffff;
+padding: 10px 40px;
+border: solid #B74695 2px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border-radius: 25px 50px 50px 25px;
+transition : 0.5s ease-in-out;
+transform: translateY(0);
+/* display: flex; */
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.popbtn2:hover{
+
+transition: 0.5s ease-in-out;
+padding: 10px 42px;
+transform : translateY(-3px);
+background-color: #B74695;
+color: #ffffff;
+
+border: none;
 }
