@@ -39,8 +39,8 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-@media screen and  (max-width: 991px) {
-  .navbar{
+@media screen and (max-width: 991px) {
+  .navbar {
     max-height: 80vh;
     overflow-y: auto;
   }
@@ -163,6 +163,19 @@ img {
   background-repeat: no-repeat;
   position: relative;
   z-index: 2;
+}
+
+
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: url(../img/home/bg3.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+  }
 }
 
 .hero::after {
@@ -435,7 +448,7 @@ form .form-control {
   background-color: rgba(0, 0, 0, 0.02);
 }
 
-form textarea.form-control{
+form textarea.form-control {
   border-radius: 8px;
   border: 2px solid rgba(183, 70, 149, 1);
 }
@@ -460,27 +473,29 @@ form textarea.form-control{
 }
 
 @media screen and (max-width: 700px) {
-  .footer-top{
+  .footer-top {
     display: flex;
     justify-content: center;
     text-align: center;
   }
+
   .one {
     white-space: nowrap;
     line-height: 4;
     font-size: 14px;
     padding: 0 0 0 0px;
   }
-  
+
   .one a {
     display: inline;
   }
 }
 
 @media screen and (max-width: 312px) {
-  .footer-top{
+  .footer-top {
     font-size: 12px;
   }
+
   .one {
     font-size: 12px;
   }
@@ -490,6 +505,7 @@ form textarea.form-control{
   white-space: nowrap;
   padding: 0;
 }
+
 .one a {
   display: inline;
 }
@@ -1725,7 +1741,7 @@ img .contactus {
 }
 
 @media screen and (max-width: 799px) {
-  .myform{
+  .myform {
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -1751,6 +1767,7 @@ img .contactus {
   pointer-events: none;
   transition: 200ms ease-in-out opacity;
 }
+
 .popup-content {
   width: clamp(300px, 90vw, 500px);
   color: white;
@@ -1761,12 +1778,14 @@ img .contactus {
   opacity: 0;
   transform: translateY(20%);
   transition: 200ms ease-in-out opacity,
-              200ms ease-in-out transform;
+    200ms ease-in-out transform;
   position: relative;
 }
-.popup-content h3{
+
+.popup-content h3 {
   color: rgb(218, 211, 211);
 }
+
 .popup h4 {
   position: absolute;
   top: 2rem;
@@ -1775,6 +1794,7 @@ img .contactus {
   cursor: pointer;
   user-select: none;
 }
+
 .popup h4:active {
   transform: scale(.9);
 }
@@ -1786,21 +1806,21 @@ img .contactus {
 }
 
 @media screen and (max-width: 433px) {
-  .showPopup{
+  .showPopup {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 }
 
 @media screen and (max-width: 405px) {
-  .showPopup{
+  .showPopup {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 }
 
 @media screen and (max-width: 381px) {
-  .showPopup{
+  .showPopup {
     margin-top: 16px;
     margin-bottom: 16px;
   }
@@ -1834,6 +1854,7 @@ img .contactus {
   cursor: pointer;
   text-transform: uppercase;
 }
+
 .popbtn1:hover {
 
   transition: 0.5s ease-in-out;
@@ -1844,32 +1865,32 @@ img .contactus {
   border: none;
 }
 
-.popbtn2{
-font-family: Roboto, sans-serif;
-font-weight: 600;
-font-size: 14px;
-color: #B74695;
-background-color: #ffffff;
-padding: 10px 40px;
-border: solid #B74695 2px;
-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-border-radius: 25px 50px 50px 25px;
-transition : 0.5s ease-in-out;
-transform: translateY(0);
-/* display: flex; */
-flex-direction: row;
-align-items: center;
-cursor: pointer;
-text-transform: uppercase;
+.popbtn2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #B74695;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  border: solid #B74695 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 25px 50px 50px 25px;
+  transition: 0.5s ease-in-out;
+  transform: translateY(0);
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-.popbtn2:hover{
+.popbtn2:hover {
 
-transition: 0.5s ease-in-out;
-padding: 10px 42px;
-transform : translateY(-3px);
-background-color: #B74695;
-color: #ffffff;
+  transition: 0.5s ease-in-out;
+  padding: 10px 42px;
+  transform: translateY(-3px);
+  background-color: #B74695;
+  color: #ffffff;
 
-border: none;
+  border: none;
 }
