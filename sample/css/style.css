@@ -411,7 +411,7 @@ section {
 
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .social-icons a {
