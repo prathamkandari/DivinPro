@@ -1894,3 +1894,7 @@ img .contactus {
 
   border: none;
 }
+
+.txet {
+  text-wrap: nowrap;
+}
