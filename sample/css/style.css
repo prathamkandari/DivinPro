@@ -424,7 +424,7 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 100px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   transition: all 0.4s ease;
   border: 2px solid var(--prime);
 }
@@ -1897,4 +1897,33 @@ img .contactus {
 
 .txet {
   text-wrap: nowrap;
+}
+
+@media screen and (max-width: 769px) {
+  .powered {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+/* Default styles for larger screens */
+/* @media (min-width: 757px) {
+
+  .footer-bottom .row .powered {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+} */
+
+/* Styles for screens 756px or less */
+@media (max-width: 768px) {
+  
+  .footer-bottom .row .powered {
+      text-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
 }
