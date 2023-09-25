@@ -1918,7 +1918,7 @@ img .contactus {
 } */
 
 /* Styles for screens 756px or less */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   
   .footer-bottom .row .powered {
       text-wrap: wrap;
