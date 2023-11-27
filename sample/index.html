@@ -2301,23 +2301,23 @@
                 </div>
             </div>
 
-            <form action="" class="col-md-7 row g-3 justify-content-center myform"
+            <form action="contact.php" method="post" class="col-md-7 row g-3 justify-content-center myform"
                 style="background: rgba(255, 255, 255, 0.7); padding-bottom: 10px; border-radius: 5px;">
                 <div class="col-md-5">
-                    <input type="text" class="form-control" placeholder="Full Name">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                 </div>
                 <div class="col-md-7">
-                    <input type="text" class="form-control" placeholder="Enter E-mail">
+                    <input type="text" name="email" class="form-control" placeholder="Enter E-mail" required>
                 </div>
                 <div class="col-md-12">
-                    <input type="text" class="form-control" placeholder="Enter Subject">
+                    <input type="text" name="subject" class="form-control" placeholder="Enter Subject" required>
                 </div>
                 <div class="col-md-12">
-                    <textarea name="" id="" cols="30" rows="5" type="text" class="form-control"
-                        placeholder="Enter Message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="5" type="text" class="form-control"
+                        placeholder="Enter Message" required></textarea>
                 </div>
                 <div class="col-md-12 d-grid">
-                    <button type="submit" class="btn btn-primary"
+                    <button type="submit" name="submit" class="btn btn-primary"
                         style="background: #fff; color: #000; border-radius: 8px;">Contact</button>
                 </div>
             </form>
