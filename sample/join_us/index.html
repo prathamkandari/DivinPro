@@ -214,18 +214,18 @@
                 </div> -->
             </div>
 
-            <form action="" class="col-md-12 row g-3 justify-content-center shadow p-5 form_back">
+            <form action="joinUs.php" class="col-md-12 row g-3 justify-content-center shadow p-5 form_back">
                 <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Full Name" style="background-color: #fff;">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" style="background-color: #fff;" required>
                 </div>
                 <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Enter E-mail" style="background-color: #fff;">
+                    <input type="email" name="email" class="form-control" placeholder="Enter E-mail" style="background-color: #fff;" required>
                 </div>
                 <div class="col-md-6">
-                    <input type="tel" class="form-control" placeholder="Enter Mobile Number" style="background-color: #fff;">
+                    <input type="tel"  name="mobile" class="form-control" placeholder="Enter Mobile Number"  minlength="1" maxlength="10" style="background-color: #fff;" required>
                 </div>
                 <div class="col-md-6">
-                    <select class="form-select form-control" aria-label="Default select example" style="background-color: #fff;">
+                    <select class="form-select form-control" name="position" aria-label="Default select example" style="background-color: #fff;" required>
                         <option selected>Position Applying for</option>
                         <option value="Telecallers">Telecallers</option>
                         <option value="Trainers">Trainers</option>
@@ -236,18 +236,18 @@
                     </select>
                 </div>
                 <div class="col-md-8">
-                    <textarea name="" id="" cols="30" rows="3" class="form-control" style="background-color: #fff;"
-                        placeholder="Why DivIn Pro"></textarea>
+                    <textarea name="about" id="" cols="30" rows="3" class="form-control" style="background-color: #fff;"
+                        placeholder="Why DivIn Pro" required></textarea>
                 </div>
                 <div class="col-md-4">
                     <label for="formFileSm" class="form-label" style="background-color: #fff;">Upload CV
-                        <input class="form-control form-control-sm" id="formFileSm" type="file"></label>
+                        <input class="form-control form-control-sm" id="formFileSm" name="resume" type="file" required></label>
                 </div>
                 <div class="col-md-12">
-                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Comments" style="background-color: #fff;"></textarea>
+                    <textarea name="comments" id="" cols="30" rows="5" class="form-control" placeholder="Comments" style="background-color: #fff;" required></textarea>
                 </div>
                 <div class="col-md-12 d-grid">
-                    <button class="btn btn-primary shadow">Contact</button>
+                    <button type="submit" name="submit" class="btn btn-primary shadow">Contact</button>
                 </div>
             </form>
 
