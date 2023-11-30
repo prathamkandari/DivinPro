@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
     $mobile = $_POST['mobile'];
     $position = $_POST['position'];
     $about = $_POST['about'];
-    $resume = $_POST['resume'];
+    // $resume = $_POST['resume'];
     $comments = $_POST['comments'];
 
     // $result = mysqli_query($conn, "SELECT * FORM `divin` WHERE `email`= '".$email."' ") or die("Cannot connect to database! line 17");
@@ -28,8 +28,8 @@ if(isset($_POST['submit'])){
             // $image = $_FILES['resume']['tmp_name']; 
             // $imgContent = addslashes(file_get_contents($image));    
 
-            $sql = mysqli_query($conn, "INSERT INTO joinus (`name`, `email`, `mobile`, `position`, `about`, `resume`, `comments`) VALUES('".$name."' , '".$email."' , '".$mobile."' , '".$position."' , '".$about."' , '".$imgContent."' , '".$comments."' )") or die("Cannot connect to database and send the values.!");
-            move_uploaded_file($file_tmp,"../upload/".$file_name);
+            $sql = mysqli_query($conn, "INSERT INTO joinus (`name`, `email`, `mobile`, `position`, `about`, `comments`) VALUES('".$name."' , '".$email."' , '".$mobile."' , '".$position."' , '".$about."' , '".$comments."' )") or die("Cannot connect to database and send the values.!");
+            // move_uploaded_file($file_tmp,"../upload/".$file_name);
 
             if($sql){
                 echo "<script>alert('Successfully Sent!');window.location='../index.html';</script>";

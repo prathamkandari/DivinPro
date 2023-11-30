@@ -274,12 +274,22 @@
 
 .close-button1 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
   cursor: pointer;
   border-radius: 0.25rem;
   background-color: lightgray;
+  /* transform: translate3d(-50%, -50%, 0); */
+  /* z-index: 999; */
 }
 
 .close-button1:hover {
@@ -366,6 +376,14 @@
 
 .close-button2 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -457,6 +475,14 @@
 
 .close-button3 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -549,6 +575,14 @@
 
 .close-button4 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -641,6 +675,14 @@
 
 .close-button5 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -734,6 +776,14 @@
 
 .close-button6 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -827,6 +877,14 @@
 
 .close-button7 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -920,6 +978,14 @@
 
 .close-button8 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -1012,6 +1078,14 @@
 
 .close-button9 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -1104,6 +1178,14 @@
 
 .close-button10 {
   float: right;
+  /* display: block; */
+  position: sticky;
+  position: -webkit-sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px; 
+  /* margin-right: 10px; */
   width: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
